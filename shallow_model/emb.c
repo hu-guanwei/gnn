@@ -36,7 +36,7 @@ float inner_pord(float *emb, int i, int j) {
 
 void update(float *emb, int i, int j, int has_edge, float lr) {
     // if node i and node j are connected by an edge
-    // then embedding vector of node i should turn towards embedding vector and node j, same for node j
+    // then embedding vector of node i should turn towards embedding vector of node j, same for node j
     // ;
     // if they are not connected by an edge
     // thery turn towards the opposite direction of the other
